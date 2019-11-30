@@ -1,3 +1,4 @@
+#include <iostream>
 #include<math.h>
 int potega(int a, int b)
 {
@@ -75,5 +76,7 @@ int pole_rombu(int x, int f)
 
 int pole_trojkata_rownobocznego(int a)
 {
-    return (double)(a*a)*sqrt(3)/4;
+    double x;
+    x=a*a*sqrt(3)/4;
+    std::cout<<x;
 }
